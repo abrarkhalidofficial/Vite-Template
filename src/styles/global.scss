@@ -10,3 +10,113 @@ body {
   font-family: sans-serif;
   font-size: 16px;
 }
+body::-webkit-scrollbar {
+  width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#2b2424e1 0%, #756767 100%);
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4em;
+}
+.header__nav a {
+  margin-right: 2em;
+  text-decoration: none;
+  color: #000;
+}
+.header__logo {
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.home__Section {
+  width: 100%;
+}
+.home__Section__content {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 4em;
+}
+.home__Section__content__button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+  margin-top: 2em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.home__Section__content__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #000000;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+}
+.Header__button {
+  padding: 10px 10px;
+  border: none;
+  background-color: rgb(151, 112, 112);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 200;
+  border-radius: 5px;
+
+  text-decoration: none;
+  cursor: pointer;
+}

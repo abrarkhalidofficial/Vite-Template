@@ -52,4 +52,4 @@ Liked nextjs a lot but dont need complexity of ssr and backend stuff only wanted
 
 ## Author
 
-- [@mehfoozurrehman](https://www.github.com/mehfoozurrehman)
+- [@Abrarkhalid](https://www.github.com/abrarkhalidofficial)
